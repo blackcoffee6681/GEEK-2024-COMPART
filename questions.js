@@ -66,9 +66,9 @@ export default [
         question: "O que o Superman é da supergirl?",
         answers: [
           { option: "Apenas Amigos", correct: false },
-          { option: "Primos", correct: true },
-          { option: "Irmãos", correct: false },
-          { option: "Namorados", correct: false },
+          { option: "Primo", correct: true },
+          { option: "Irmão", correct: false },
+          { option: "Namorado", correct: false },
         ],
       },
       {
