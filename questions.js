@@ -177,12 +177,12 @@ export default [
         ],
       },
 {
-        question: "Qual casa o chapéu seletor mandou Harry Potter?"  ,
+        question: "Qual o nome do mestre de Daniel Larusso em Karatê Kid?"  ,
         answers: [
-          { option: "Sonserina", correct: false },
-          { option: "Corvinal", correct: false },
-          { option: "Lufa-Lufa", correct:  false},
-          { option: "Grifinória", correct: true},
+          { option: "Nariyoshi Miyagi", correct: false },
+          { option: "Chozen Miyagi", correct: false },
+          { option: "Nakamura Miyagi", correct:  false},
+          { option: "Johnny Lawrence", correct: true},
         ],
       },
 
