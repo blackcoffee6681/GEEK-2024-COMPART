@@ -27,7 +27,7 @@ export default [
       ],
     },
     {
-      question: "Qual era o nome do primeiro vilão de Capitão América",
+      question: "Qual era o nome do primeiro vilão de Capitão América?",
       answers: [
         { option: "Soldado Invernal", correct: false },
         { option: "Hulk Vermelho", correct: false },
@@ -66,13 +66,13 @@ export default [
         question: "O que o Superman é da supergirl?",
         answers: [
           { option: "Apenas Amigos", correct: false },
-          { option: "Primo", correct: true },
-          { option: "Irmão", correct: false },
-          { option: "Namorado", correct: false },
+          { option: "Primos", correct: true },
+          { option: "Irmãos", correct: false },
+          { option: "Namorados", correct: false },
         ],
       },
       {
-        question: "Qual nome do espadachim do chapéus de palha",
+        question: "Qual nome do espadachim do chapéus de palha?",
         answers: [
           { option: "Sanji", correct: false },
           { option: "Usopp", correct: false },
@@ -89,4 +89,104 @@ export default [
           { option: "Gol D. Roger", correct: false },
         ],
       },
+       {
+        question: "Quem é o pai do Baki Hanma?",
+        answers: [
+          { option: "Yujiro Hanma", correct: true },
+          { option: "Yuchiro Hanma", correct: false },
+          { option: "Jack Hanma", correct: false },
+          { option: "Retsu Kaioh", correct: false },
+        ],
+      },
+
+       {
+        question: "Quem é o humano das cavernas em Baki?",
+        answers: [
+          { option: "Doppo", correct: false },
+          { option: "Oliver", correct: false },
+          { option: "Pickle", correct:  true },
+          { option: "Hanayama", correct: false },
+        ],
+      },
+
+{
+        question: "Qual nome da mãe do Baki?",
+        answers: [
+          { option: "Natsui Orochi", correct: false },
+          { option: "Diane Neil", correct: false },
+          { option: "Kozue Matsumoto", correct:  false},
+          { option: "Emi Akezawa", correct: true },
+        ],
+      },
+
+
+    {
+        question: "Quem é o protagonita e antagonista de Berseker?",
+        answers: [
+          { option: "Guts e Griffth", correct: true },
+          { option: "Femto e Gambino  ", correct: false },
+          { option: "Guts e Zodd", correct:  false},
+          { option: "Femto e Donavam", correct: false},
+        ],
+      },
+{
+        question: "Qual o shikigami mais forte invocado por Megumi Fushiguro?",
+        answers: [
+          { option: "Nue", correct: false },
+          { option: "Orochi", correct: false },
+          { option: "Gama", correct:  false},
+          { option: "General Mahoraga", correct: true },
+        ],
+      },
+
+    {
+        question: "Quem é o atual hospedeiro do Sukuna?"  ,
+        answers: [
+          { option: "Yuji Itadori", correct: false },
+          { option: "Satoru Gojo", correct: false },
+          { option: "Megumi Fushiguro", correct:  true},
+          { option: "Kenjaku", correct: false},
+        ],
+      },
+
+  {
+        question: "Qual o protagonista de De volta para o futuro?"  ,
+        answers: [
+          { option: "George McFly", correct: false },
+          { option: "Marty McFly", correct: true },
+          { option: "Biff Tannen", correct:  false},
+          { option: "Match ", correct: false},
+        ],
+      },
+{
+        question: "Quem é o pai de Luke Skywalker?"  ,
+        answers: [
+          { option: "Obi-Wan", correct: false },
+          { option: "Yoda", correct: false },
+          { option: "Darth Vader", correct:  true},
+          { option: "Han Solo ", correct: false},
+        ],
+      },
+{
+        question: "Qual casa o chapéu seletor mandou Harry Potter?"  ,
+        answers: [
+          { option: "Sonserina", correct: false },
+          { option: "Corvinal", correct: false },
+          { option: "Lufa-Lufa", correct:  false},
+          { option: "Grifinória", correct: true},
+        ],
+      },
+{
+        question: "Qual casa o chapéu seletor mandou Harry Potter?"  ,
+        answers: [
+          { option: "Sonserina", correct: false },
+          { option: "Corvinal", correct: false },
+          { option: "Lufa-Lufa", correct:  false},
+          { option: "Grifinória", correct: true},
+        ],
+      },
+
+    
   ];
+
+
