@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro no Quiz Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Cadastre-se no Quiz Geek</h1>
+        <form action="process.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" name="curso" required>
+            
+            <label for="ano">Ano:</label>
+            <select id="ano" name="ano" required>
+                <option value="">Selecione</option>
+                <option value="1º Ano">1º Ano</option>
+                <option value="2º Ano">2º Ano</option>
+                <option value="3º Ano">3º Ano</option>
+            </select>
+            
+            <button type="submit" class="button">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
+

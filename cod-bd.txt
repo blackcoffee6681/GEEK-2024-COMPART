@@ -1,0 +1,10 @@
+CREATE DATABASE quiz_geek;
+
+USE quiz_geek;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    curso VARCHAR(100) NOT NULL,
+    ano ENUM('1º Ano', '2º Ano', '3º Ano') NOT NULL
+);
